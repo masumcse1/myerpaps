@@ -26,24 +26,24 @@
 	  </properties>
   
 
-  <scm>
-    <connection>scm:git:${project.scm.url}</connection>
-    <developerConnection>scm:git:${project.scm.url}</developerConnection>
-    <url>https://github.com/masumcse1/myerpaps.git</url>
-    <tag>0.0.1</tag>
-  </scm>
+	<scm>
+	<connection>scm:git:${project.scm.url}</connection>
+	<developerConnection>scm:git:${project.scm.url}</developerConnection>
+	<url>https://github.com/masumcse1/myerpaps.git</url>
+	<tag>0.0.1</tag>
+	</scm>
 
 
  
   
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub GulamSamdani Apache Maven Packages</name>
-               <url>https://maven.pkg.github.com/masumcse1/myerpaps</url>
-        </repository>
-    </distributionManagement>
-    
+	<distributionManagement>
+	<repository>
+	    <id>github</id>
+	    <name>GitHub GulamSamdani Apache Maven Packages</name>
+	       <url>https://maven.pkg.github.com/masumcse1/myerpaps</url>
+	</repository>
+	</distributionManagement>
+
  	
  	
   
@@ -62,31 +62,31 @@
 
   
 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-failsafe-plugin</artifactId>
-        <version>2.22.2</version>
-        <executions>
-          <execution>
-            <goals>
-              <goal>integration-test</goal>
-              <goal>verify</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
+		<build>
+		<plugins>
+		<plugin>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-maven-plugin</artifactId>
+		</plugin>
+		<plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-failsafe-plugin</artifactId>
+		<version>2.22.2</version>
+		<executions>
+		  <execution>
+		    <goals>
+		      <goal>integration-test</goal>
+		      <goal>verify</goal>
+		    </goals>
+		  </execution>
+		</executions>
+		</plugin>
      
 
 
-<plugin>
-	<artifactId>maven-release-plugin</artifactId>
-	<version>2.5.3</version>
+		<plugin>
+		<artifactId>maven-release-plugin</artifactId>
+		<version>2.5.3</version>
 		<configuration>
 		<releaseProfiles>thorntail</releaseProfiles>
 		<arguments>${releaseOption}</arguments>
@@ -95,12 +95,12 @@
 		<checkModificationExclude>settings.xml</checkModificationExclude>
 		</checkModificationExcludes>
 		</configuration>
-</plugin>
+		</plugin>
 
-     
-     
-    </plugins>
-  </build>
+
+
+		</plugins>
+		</build>
 
 
 
