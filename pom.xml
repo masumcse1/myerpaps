@@ -25,14 +25,12 @@
 	    <releaseOption />
 	    <scm.url>scm:git:git@github.com:masumcse1/myerpaps.git</scm.url>
 	  </properties>
-  
-
 
 
 	<scm>
 		<connection>${scm.url}</connection>
 		<developerConnection>${scm.url}</developerConnection>
-		<tag>HEAD</tag>
+		<tag>0.0.1</tag>
 	</scm>
 
   
