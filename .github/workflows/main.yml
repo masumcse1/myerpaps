@@ -35,5 +35,5 @@ jobs:
       - name: Perform release & publish artifacts
         run: mvn release:prepare release:perform -B  -DreleaseVersion=${{ github.event.inputs.releaseVersion }}  -DconnectionUrl=https://${{github.token}}@github.com/masumcse1/myerpaps.git
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
 
