@@ -4,7 +4,7 @@
 
 <groupId>com.suma.bd</groupId>
 	<artifactId>myerpaps</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>large scale app</name>
@@ -30,7 +30,7 @@
 	<connection>scm:git:${project.scm.url}</connection>
 	<developerConnection>scm:git:${project.scm.url}</developerConnection>
 	<url>https://github.com/masumcse1/myerpaps.git</url>
-	<tag>myerpaps-0.0.3</tag>
+	<tag>0.0.1</tag>
 	</scm>
 
 
