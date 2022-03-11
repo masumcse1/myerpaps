@@ -22,17 +22,19 @@
 	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	    <java.version>11</java.version>
-	    <releaseOption />
-	    <scm.url>scm:git:git@github.com:masumcse1/myerpaps.git</scm.url>
+	    		<releaseOption />
 	  </properties>
-
+  
 
 	<scm>
-		<connection>${scm.url}</connection>
-		<developerConnection>${scm.url}</developerConnection>
-		<tag>0.0.1</tag>
+	<connection>scm:git:${project.scm.url}</connection>
+	<developerConnection>scm:git:${project.scm.url}</developerConnection>
+	<url>https://github.com/masumcse1/myerpaps.git</url>
+	<tag>0.0.1</tag>
 	</scm>
 
+
+ 
   
 	<distributionManagement>
 	<repository>
