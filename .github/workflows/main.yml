@@ -33,7 +33,7 @@ jobs:
           git config user.name "masumcse1"
 
       - name: Perform release & publish artifacts
-        run: mvn release:prepare release:perform -B  -DreleaseVersion=${{ github.event.inputs.releaseVersion }}  -DautoVersionSubmodules=true -Dtag=${{ github.event.inputs.releaseVersion }} -DreleaseOption="-DskipTests=true -Dmaven.javadoc.skip=true" -Dresume=false -Dmaven.site.skip=true -DgenerateReports=false -Dmaven.javadoc.skip=true 
+        run: mvn release:prepare release:perform -B  -DreleaseVersion=${{ github.event.inputs.releaseVersion }}  
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
