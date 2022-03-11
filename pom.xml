@@ -29,7 +29,7 @@
   <scm>
     <connection>scm:git:${project.scm.url}</connection>
     <developerConnection>scm:git:${project.scm.url}</developerConnection>
-    <url>https://github.com/masumcse1/mymeveo.git</url>
+    <url>https://github.com/masumcse1/myerpaps.git</url>
     <tag>0.0.1</tag>
   </scm>
 
@@ -40,7 +40,7 @@
         <repository>
             <id>github</id>
             <name>GitHub GulamSamdani Apache Maven Packages</name>
-               <url>https://maven.pkg.github.com/masumcse1/mymeveo</url>
+               <url>https://maven.pkg.github.com/masumcse1/myerpaps</url>
         </repository>
     </distributionManagement>
     
